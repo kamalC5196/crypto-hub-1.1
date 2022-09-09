@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+  font-family:Montserrat;
+}
+
+a{
+  text-decoration: none;
+  color:#00d09c;
+}
+
+ .App {
+    background-color: black;
+    color:white;
+    min-height:100vh;
+  }
+
+  .currency-select-color{
+    /* color:#035CA3 !important; */
+    color: #00d09c !important;
+  }
+  .banner{
+    height: 50%;
+    display: flex;
+    align-items:center;
+    margin:20px 20px;
+  }
+.MuiSelect-icon{
+  color: #00d09c !important;
+}
+  .carousel-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-transform:uppercase;
+    color:#fff;
+
+  }
+
+  .coin-row{
+    cursor:pointer;
+    transition: 0.3s ease;
+  }
+
+  .coin-row:hover{
+    background-color:#111;
+    transition: 0.3s ease; 
+  }
