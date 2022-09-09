@@ -63,6 +63,7 @@ function CoinsTable(){
 
  const handleSearch = useCallback((e)=>{
    setSearch(e.target.value);
+   setPage(1);
  },[])
 
  const handlePagination = useCallback((_,value)=>{
